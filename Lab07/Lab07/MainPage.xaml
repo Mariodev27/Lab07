@@ -16,18 +16,19 @@
             </Style>
             
             <Style x:Key="styleButtomDemo"  TargetType="Button">
-                <Setter Property="TextColor" Value="Green"> </Setter>
+                <Setter Property="TextColor" Value="Blue"> </Setter>
             </Style>
             
         </ResourceDictionary>
     </ContentPage.Resources>
-    
-    <StackLayout>
-        <Entry Text="Primero"></Entry>
-        <Entry Text="Segundo"></Entry>
-        <Entry Text="Tercero"></Entry>
-        <local:CustomEntry Text="Mi entry nuevo"></local:CustomEntry>
-        
-    </StackLayout>
 
+    <StackLayout>
+        <Entry Text="Mario"></Entry>
+        <Entry Text="Santisteban"></Entry>
+        <Entry Text="Alcántara"></Entry>
+        <local:CustomEntry Text="Ejercicio01"></local:CustomEntry>
+        
+        <Button Text="Mi botón con estilo" Style="{StaticResource styleButtomDemo}"></Button>
+        <Button Text="Mi botón en verde"></Button>
+    </StackLayout>
 </ContentPage>

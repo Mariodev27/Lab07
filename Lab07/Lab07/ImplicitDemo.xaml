@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Lab07"
              x:Class="Lab07.ImplicitDemo">
+    
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Entry">
